@@ -41,72 +41,14 @@
         <div class="title-main">
             <h1>Upcoming Events</h1>
         </div>
-        <div class="events-inputs">
-            <div class="categ-check">
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Categories
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <label class="dropdown-item">
-                            Category
-                            <input type="checkbox" name="opcion" id="check">
-                        </label>
-                    </li>
-                    <li>
-                        <label class="dropdown-item">
-                            Category
-                            <input type="checkbox" name="opcion" id="check">
-                        </label>
-                    </li>
-                    <li>
-                        <label class="dropdown-item">
-                            Category
-                            <input type="checkbox" name="opcion" id="check">
-                        </label>
-                    </li>
-                    <li>
-                        <label class="dropdown-item">
-                            Category
-                            <input type="checkbox" name="opcion" id="check">
-                        </label>
-                    </li>
-                    <li>
-                        <label class="dropdown-item">
-                            Category
-                            <input type="checkbox" name="opcion" id="check">
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <div class="search-inp">
-                <input class="text" type="text">
-                <input class="enviar" type="submit" value="Search">
-            </div>
+        <div class="checks" id="checksPad">
         </div>
+
+        <form class="search-inp" id="search-inp">
+
+            <input type="text" id="formSearch" class="form-control">
+            <button class="btn btn-info mb-2" id="buttonSearch">Search</button>
+        </form>
         <div class="main-events" id="main-events">
 
         </div>
@@ -136,6 +78,7 @@
         crossorigin="anonymous"></script>
     <script src="./archivosjs/data.js"></script>
     <script src="./archivosjs/upcoming.js"></script>
+
 </body>
 
 </html>

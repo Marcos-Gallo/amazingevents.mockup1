@@ -40,30 +40,54 @@
         <div class="title-main">
             <h1>Home</h1>
         </div>
-        <div class="events-inputs">
-            <div class="categ-check">
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
-                <label>
-                    Category
-                    <input type="checkbox" name="opcion" id="check">
-                </label>
+        <div class="checks" id="checksPad">
+            <!-- <div class="input-checks">
+                <input type="checkbox" id="categories" value="food fair">
+                <label>Food Fair</label>
             </div>
-            <div class="dropdown">
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="museum"> Museum
+            </div>
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="costume party"> Costume Party
+            </div>
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="music concert"> Music Concert
+            </div>
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="race">Race
+            </div>
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="book exchange">Book Exchange
+            </div>
+            <div class="input-checks">
+                <input type="checkbox" id="categories" value="cinema"> Cinema
+            </div> -->
+        </div>
+
+        <!-- <div class="categ-check" id="">
+                <label>
+                    Category
+                    <input type="checkbox" name="opcion" id="check">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="opcion" id="check">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="opcion" id="check">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="opcion" id="check">
+                </label>
+                <label>
+                    Category
+                    <input type="checkbox" name="opcion" id="check">
+                </label>
+            </div> -->
+        <!-- <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Categories
@@ -100,12 +124,14 @@
                         </label>
                     </li>
                 </ul>
-            </div>
-            <div class="search-inp">
-                <input class="text" type="text">
-                <input class="enviar" type="submit" value="Search">
-            </div>
+            </div> -->
+        <form class="search-inp" id="search-inp">
+
+            <input type="text" id="formSearch" class="form-control">
+            <button class="btn btn-info mb-2" id="buttonSearch">Search</button>
+        </form>
         </div>
+
         <div class="main-events" id="main-events">
 
         </div>
